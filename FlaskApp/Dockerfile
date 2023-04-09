@@ -18,4 +18,4 @@ EXPOSE 5002
 
 
 # Run app.py when the container launches
-CMD ["python3", "app.py"]
+COM ["python", "-m", "flask", "run", "--host=0.0.0.0", "--port=5002"]
