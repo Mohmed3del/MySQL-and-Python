@@ -9,7 +9,7 @@ CREATE TABLE `BucketList`.`tbl_user` (
 );
 USE BucketList;
 INSERT INTO tbl_user
-values (1, 'mohmed', 'mohmed@adel.com', 'mohmed');
+values (10, 'mohmed', 'mohmed', 'mohmed');
 DELIMITER $$ CREATE DEFINER = `root` @`localhost` PROCEDURE `sp_createUser`(
   IN p_name VARCHAR(20),
   IN p_username VARCHAR(100),
